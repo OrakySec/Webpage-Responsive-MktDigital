@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="javascript/javascript.js"></script>
+    <title>Offsec Security</title>
+</head>
+<body>
+
+    <!-- Contagem Regressiva -->
+
+    <header>
+        <div>
+            <span id="countdown"></span>
+        </div>
+    </header>
+
+    <!-- Modal de Sucesso -->
+    <div id="modal-success" class="modal">
+        <div class="modal-content success-modal">
+            <span class="close" onclick="fecharModal('modal-success')">&times;</span>
+            <p id="success-message"></p>
+        </div>
+    </div>
+
+    <!-- Modal de Erro -->
+    <div id="modal-error" class="modal">
+        <div class="modal-content error-modal">
+            <span class="close" onclick="fecharModal('modal-error')">&times;</span>
+            <p id="error-message"></p>
+        </div>
+    </div>
+
+    <!-- Conteúdo da Página -->
+
+    <section class="conteudo">
+        <img class="imagem-direita" src="style/img/Hacker-PNG-Image.png">
+        <h1>CURSO AVANÇADO DE <br><span class="text-color">HACKING...</span></h1>
+        <br>
+        <h2>Descubra o Poder da <span class="text-color2">Segurança Ofensiva</span>: Curso <span class="text-color2">Gratuito</span> de Hacking Ético!</h2>
+        <br>
+        <p>Você já sonhou em explorar o mundo fascinante da cibersegurança e se tornar um guardião ou um invasor dos sistemas digitais? Quer aprender a explorar falhas de segurança em empresas e organizações? Se sua resposta é SIM, então este é o momento perfeito para você!</p>
+        <br>
+        <p>O curso gratuito de Hacking Ético está agora ao seu alcance, e você não pode perder essa oportunidade incrível de adquirir conhecimentos valiosos e transformar sua carreira. Aqui está por que você deve se inscrever imediatamente:</p>
+        <br>
+        <p><b><span class="text-color">Conteúdo do curso:</span></b></p>
+        <br>
+        <ul>
+            <li>
+                <b><span class="text-color2">Aprenda com os Melhores:</span></b> Este curso é ministrado por especialistas em cibersegurança de renome internacional. Eles compartilharão suas experiências e conhecimentos para garantir que você se torne um profissional de destaque.
+            </li>
+
+            <li>
+                <b><span class="text-color2">Abra as Portas para o Futuro:</span></b> A demanda por profissionais de hacking ético está explodindo. Ao concluir este curso, você estará preparado para uma carreira emocionante e altamente lucrativa.
+            </li>
+
+            <li>
+                <b><span class="text-color2">Conhecimento Prático:</span></b> Aqui, você não apenas absorverá teoria, mas também aplicará seus conhecimentos em cenários do mundo real. É prática que faz a diferença!
+            </li>
+
+            <li>
+                <b><span class="text-color2">Defenda e Proteja:</span></b> Torne-se um herói digital, defendendo sistemas e redes contra ataques cibernéticos. Contribua para um mundo mais seguro e protegido.
+            </li>
+
+            <li>
+                <b><span class="text-color2">Certificado de Conclusão:</span></b> Ao final do curso, você receberá um certificado reconhecido mundialmente, que comprovará suas habilidades e competências no campo do hacking ético.
+            </li>
+
+            <li>
+                <b><span class="text-color2">Totalmente Gratuito:</span></b> Sim, você leu corretamente! Este curso é 100% gratuito. Não há desculpas para não começar agora mesmo.
+            </li>
+        </ul>
+        <br>
+        <div class="divisoria-horizontal"></div>
+        <p>As vagas são limitadas, e esta oportunidade pode não voltar. Portanto, inscreva-se hoje mesmo! Aventure-se no mundo emocionante do Hacking Ético e descubra o poder de invadir e proteger o digital.</p>
+        <br>
+        <div class="aligh-center">
+            <p>Inscreva-se agora para iniciar sua jornada na segurança cibernética!</p>
+            <div>
+                <img class="icone-hacker" src="style/img/Hacker-PNG-Image.png">
+            </div>
+            <form id="formulario" onsubmit="return enviarFormulario(event);">
+                <div class="telefone-box">
+                    <input type="tel" id="tel" name="telefone" class="campo-telefone" placeholder="Insira seu WhatsApp">
+                </div>
+                <div>
+                    <button type="submit" class="botao-inscricao">Inscrever-se</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé da Página -->
+
+    <footer>
+        <div class="aligh-center">
+        <p>&copy; 2023 Offsec - Segurança Digital</p>
+        </div>
+    </footer>
+
+</body>
+</html>

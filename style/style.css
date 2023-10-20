@@ -1,0 +1,224 @@
+/* Fonts de texto importadas */
+@font-face {
+    font-family: RobotoMono;
+    src: url(font/RobotoMono-Regular.ttf); /* Fonte RobotoMono importada */
+}
+
+/* Reset de estilos para garantir uma base consistente */
+body, h1, h2, p, ul, li, a {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+/* Estilos gerais da página */
+body {
+    background-color: #000000;
+    font-family: "RobotoMono"; /* Fonte principal */
+    color: #dbdbdb; /* Cor do texto */
+}
+
+.container {
+    max-width: 1200px; /* Largura máxima do container */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #e23f68; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 10px 0; /* Espaçamento interno superior e inferior */
+    text-align: center; /* Alinhamento de texto centralizado */
+    margin-bottom: 20px; /* Margem inferior para espaçamento */
+}
+
+header h1 {
+    font-size: 36px; /* Tamanho da fonte do cabeçalho */
+    margin-bottom: 10px; /* Margem inferior para espaçamento */
+}
+
+nav ul {
+    list-style: none; /* Remover marcadores de lista */
+}
+
+nav ul li {
+    display: inline; /* Exibir itens de lista em linha */
+    margin-right: 20px; /* Margem à direita entre itens */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remover margem à direita do último item */
+}
+
+nav a {
+    text-decoration: none; /* Remover decoração de texto de links */
+    color: #fff; /* Cor do texto dos links */
+    font-weight: bold; /* Peso da fonte dos links */
+    font-size: 16px; /* Tamanho da fonte dos links */
+}
+
+/* Estilos do conteúdo */
+
+/* Personalização de destaques no texto */
+.text-color {
+    color: #27f1ff; /* Cor de texto destacado 1 */
+}
+
+.text-color2 {
+    color: #d6445c; /* Cor de texto destacado 2 */
+}
+
+/* Alinhar objetos horizontalmente */
+
+.aligh-center {
+    text-align: center; /* Alinhar o texto centralmente */
+}
+
+.imagem-direita {
+    float: right; /* Faz com que a imagem fique à direita */
+    max-width: 40%; /* Largura máxima da imagem */
+}
+
+.conteudo {
+    background-color: #111111; /* Cor de fundo do conteúdo */
+    width: 70%; /* Largura do conteúdo */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    padding: 40px; /* Espaçamento interno */
+    border-radius: 5px; /* Raio da borda */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra da caixa */
+}
+
+.conteudo h1 {
+    font-size: 38px; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Margem inferior do título */
+}
+
+.conteudo h2 {
+    font-size: 24px; /* Tamanho da fonte do subtítulo */
+    margin-bottom: 10px; /* Margem inferior do subtítulo */
+}
+
+.conteudo p {
+    font-size: 16px; /* Tamanho da fonte do parágrafo */
+    line-height: 1.5; /* Altura da linha */
+    margin-bottom: 20px; /* Margem inferior do parágrafo */
+}
+
+.telefone-box {
+    /* Estilização da caixa de entrada para email */
+
+    background-color: #7e7b7b; /* Cor de fundo da caixa de email */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento de texto centralizado */
+    border-radius: 5px; /* Raio da borda */
+    display: inline-block; /* O bloco inline permite que ele se ajuste ao conteúdo interno */
+    width: 200px; /* Define a largura */
+    margin-top: 30px; /* Margem superior */
+
+}
+
+.campo-telefone {
+    color: #ffffff; /* Cor do texto do campo de email */
+    background-color: transparent; /* Cor de fundo transparente */
+    font-size: 15px; /* Tamanho da fonte */
+    font-family: 'RobotoMono'; /* Fonte do campo de email */
+    width: 90%; /* Largura total do campo de email */
+    border: none; /* Remover borda do campo de email */
+    outline: none; /* Remover destaque ao focar */
+    height: 100%; /* Altura total do campo de email */
+}
+
+.campo-telefone::placeholder {
+    color: #e4e1e1; /* Cor do texto do placeholder */
+    text-align: center; /* Alinhe o texto do placeholder no centro */
+}
+
+/* Ocultar o placeholder quando o campo ou o contêiner estiver em foco */
+.telefone-box:focus-within::placeholder,
+.campo-telefone:focus::placeholder {
+    color: transparent;
+}
+
+.botao-inscricao {
+    font-family: "RobotoMono"; /* Fonte principal */
+    margin-top: 10px; /* Margem superior para espaçamento */
+    display: inline-block; /* Exibir como bloco inline */
+    background-color: #d6445c; /* Cor de fundo do botão de inscrição */
+    color: #fff; /* Cor do texto do botão de inscrição */
+    padding: 10px 20px; /* Espaçamento interno do botão de inscrição */
+    border-radius: 10px; /* Raio da borda do botão */
+    font-weight: bold; /* Peso da fonte do botão de inscrição */
+    font-size: 13px; /* Tamanho da fonte do botão de inscrição */
+    width: 180px; /* Define a largura */
+    text-align: center; /* Centraliza o texto horizontalmente dentro do botão */
+    cursor: pointer; /* Altera o cursor do mouse ao passar emcima do botão */
+}
+
+.botao-inscricao:hover {
+    background-color: #27f1ff; /* Nova cor de fundo ao passar o mouse */
+}
+
+
+.icone-hacker {
+    margin-top: 20px;
+    width: 150px;
+}
+
+.divisoria-horizontal {
+    border: 1px solid #ccc; /* Definir cor e estilo da linha horizontal */
+    margin: 20px 0; /* Margem acima e abaixo da linha */
+}
+
+/* Seu CSS existente */
+
+/* Estilos para o pop-up de sucesso */
+.success-modal {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+}
+
+/* Estilos para o pop-up de erro */
+.error-modal {
+    background-color: #F44336; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+}
+
+/* Estilos comuns para a modal e seu conteúdo */
+.modal {
+    display: none; /* Oculta o modal por padrão */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7); /* Fundo semitransparente */
+}
+
+.modal-content {
+    background-color: #1b1b1b;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #d6445c;
+    width: 50%;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+/* Estilos para o botão de fechar (X) */
+.close {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #d6445c; /* Altera a cor quando o mouse está sobre ele */
+}
