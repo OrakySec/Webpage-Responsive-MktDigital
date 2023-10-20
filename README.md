@@ -2,6 +2,10 @@
  
 ## Web Site Responsivo
 
+<br>
+
+Não é necessário usar banco de dados, as informações são gravadas usando PHP na passta raiz do website.
+
 </div>
 
 <br>
@@ -28,5 +32,3 @@ Esta página contém um conteúdo chamativo para atrair seus clientes.
 <br>
 
 O código fonte desta página está todo comentado para facilitar mudanças pra qualquer nicho que você queira.
-
-* Não é necessário usar banco de dados, as informações são gravadas usando PHP na passta raiz do website.
